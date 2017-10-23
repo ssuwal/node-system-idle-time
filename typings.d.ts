@@ -1,2 +1,10 @@
 /* created typings file */
-export function getIdleTime(): number;
+declare module '@paulcbetts/system-idle-time' {
+    // export function getIdleTime(): number;
+    interface SystemIdleTime {
+      getIdleTime(): number;
+    }
+    const systemIdleTime: SystemIdleTime;
+    export = systemIdleTime;
+  }
+  
