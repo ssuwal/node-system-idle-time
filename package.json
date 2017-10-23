@@ -23,5 +23,6 @@
   "dependencies": {
     "nan": "^2.0.0",
     "bindings": "~1.2.1"
-  }
+  },
+  "types": "typings.d.ts" 
 }
